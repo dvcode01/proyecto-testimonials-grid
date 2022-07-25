@@ -72,6 +72,7 @@ body{
     font-weight: 600;
     color: var(--Light-gray);
     opacity: 70%;
+    margin-top: 3rem;
 }
 .card--1{
     background-color: var(--Moderate-violet);
@@ -80,7 +81,7 @@ body{
     background-position: 80% 0;
 }
 .card--2{
-    background-color: var(--Very-dark-blackish-blue);
+    background-color: var(--Very-dark-grayish-blue);
 }
 .card--3, .card--5{
     background-color: var(--White);
@@ -139,12 +140,16 @@ body{
     .card--1{
         grid-column: 1/3;
     }
-    .card--5{
-        grid-column: 4/5;
-        grid-row: 1/3;
+    .card--3 .card__heading{
+        font-size: 2.3rem;
     }
     .card--4{
         grid-column: 2/4;
         grid-row: 2/3;
     }
+    .card--5{
+        grid-column: 4/5;
+        grid-row: 1/3;
+    }
+    
 } 
